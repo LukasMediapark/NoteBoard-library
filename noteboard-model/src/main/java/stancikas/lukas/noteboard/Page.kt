@@ -1,3 +1,3 @@
 package stancikas.lukas.noteboard
 
-class Page(val text: String, val dateCreated: Long, val dateEdited: Long)
+data class Page(val title: String, val notes: List<Note>, val dateCreated: Long, val dateEdited: Long)
